@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2 ,
+    "name":"Frish 起始页",
+    "version": "1.0.0",
+    "description": "Frish2021写的起始页扩展",
+    "browser_action": 
+	{
+		"default_icon": "img/png.png",
+		"default_title": "Frish2021起始页的插件",
+		"default_popup": "popup.html"
+	},
+    "chrome_url_overrides":
+	{
+		"newtab": "newtab.html"
+	},
+	"icons":
+	{
+		"16": "img/16.png",
+		"48": "img/48.png",
+		"128": "img/128.png"
+	}
+}
